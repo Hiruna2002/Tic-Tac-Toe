@@ -1,3 +1,3 @@
 # Tic-Tac-Toe
 
-<img src = "/home/Pictures/Screenshots/Tic_Tac_Toe_ss.png">
+<img src = "assets/Tic_Tac_Toe_ss.png" alt="Project Screenshot">
