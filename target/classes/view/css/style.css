@@ -1,0 +1,68 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #fcbf04, #fdc731, #f3ad03);
+}
+
+.button {
+    -fx-background-color: rgb(0,180,0);
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+
+.button:hover {
+    -fx-background-color: rgb(0,220,0);
+    -fx-text-fill: black;
+}
+
+
+.button:pressed {
+    -fx-background-color: rgb(0,255,0);
+}
+
+
+
+.dialog-pane {
+    -fx-background-color: linear-gradient(to bottom right, #fcbf04, #fdc731);
+    -fx-border-color: #222831;
+    -fx-border-width: 3;
+    -fx-border-radius: 10;
+}
+
+
+.dialog-pane .header-panel {
+    -fx-background-color: #ffd700;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222831;
+}
+
+
+.dialog-pane .content {
+    -fx-font-size: 14px;
+    -fx-text-fill: #222831;
+    -fx-padding: 10;
+}
+
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #ffcc33;
+    -fx-font-size: 14px;
+    -fx-text-fill: #222831;
+    -fx-border-color: #222831;
+    -fx-border-width: 2;
+    -fx-background-radius: 5;
+}
+
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #ffd700;
+}
+
+
+.dialog-pane .button-bar .button:pressed {
+    -fx-background-color: #ffdd57;
+}
